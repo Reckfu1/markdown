@@ -68,14 +68,14 @@ export default {
 
 <style lang="css" scoped>
 #editor{
-    height: 550px;
+    height: 520px;
     width:900px;
-    margin:auto;
+    margin:20px auto;
     position: relative;
     box-shadow: 0 0 30px rgba(0,0,0,.3);
 }
 #text{
-    height: 545px;
+    height: 515px;
     width:447px;
     position: absolute;
     left: 0;
@@ -86,7 +86,7 @@ export default {
     font-size: 16px;
 }
 .preview{
-    height: 549px;
+    height: 519px;
     width: 447px;
     position: absolute;
     right:0;
