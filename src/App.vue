@@ -1,8 +1,10 @@
 <template>
-  <div id="app"> 
-    <img src="./assets/logo.png" alt="">
-    <span>Vue Markdown</span>
-    <editor></editor>
+  <div id="app">
+    <div class="wrapper">
+      <img src="./assets/logo.png" alt="">
+      <span>Vue Markdown</span>
+      <editor></editor>
+    </div> 
   </div>
 </template>
 
@@ -17,13 +19,16 @@ export default {
 </script>
 
 <style>
-#app {
+ #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100%;
   width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #app img{
   height: 100px;
